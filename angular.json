@@ -24,10 +24,15 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
+            
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
+              "./node_modules/font-awesome/css/font-awesome.min.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/css/sb-admin-2.min.css",
+              "node_modules/sweetalert2/src/sweetalert2.scss",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +128,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ElevaApp"
+    }
+  },
+  "defaultProject": "ElevaApp",
+  "cli": {
+    "analytics": false
+  }
 }

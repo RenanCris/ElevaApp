@@ -1,1 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+.card-body{
+    transition: transform .2s ease-in-out !important;
+    cursor: pointer
+}
